@@ -2,8 +2,8 @@
 
 Contains several programs to compute various genealogical quantities under Kingman's coalescent and the discrete-time Wright-Fisher models of random mating. These programs along with the given text files were used to generate the results in this paper:
 
-[Distortion of genealogical properties when the sample is very large](http://www.pnas.org/content/111/6/2385)
-Bhaskar A., Clark A.G., Song Y.S.
+[Distortion of genealogical properties when the sample is very large](http://www.pnas.org/content/111/6/2385)  
+Bhaskar A., Clark A.G., Song Y.S.  
 PNAS, 111(6):2385–2390, 2014
 
 
@@ -34,4 +34,4 @@ All population sizes in the model files are in haploids.
 
 ### Dependencies
 
-The computation of the frequency spectrum under the coalescent requires the boost math library.
+The computation of the frequency spectrum under the coalescent requires the [boost](http://www.boost.org/users/download/) math library.
