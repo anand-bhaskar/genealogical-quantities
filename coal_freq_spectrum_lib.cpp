@@ -20,7 +20,6 @@
 #ifndef __COAL_FREQ_SPECTRUM_LIB__
 #define __COAL_FREQ_SPECTRUM_LIB__
 
-#include "omp.h"
 #include "common.cpp"
 #include <fstream>
 using namespace std;

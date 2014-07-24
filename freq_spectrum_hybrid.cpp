@@ -31,7 +31,6 @@
 #ifndef __FREQ_SPECTRUM_HYBRID__
 #define __FREQ_SPECTRUM_HYBRID__
 
-#include "omp.h"
 #include "common.cpp"
 #include "coal_freq_spectrum_lib.cpp"
 #include "wf_lib.cpp"

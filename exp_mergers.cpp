@@ -26,7 +26,6 @@
 #ifndef __EXP_MERGERS__
 #define __EXP_MERGERS__
 
-#include <omp.h>
 #include "wf_lib.cpp"
 #include "common.cpp"
 #include <iostream>

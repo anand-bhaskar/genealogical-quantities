@@ -20,7 +20,6 @@
 #ifndef __WF_LIB__
 #define __WF_LIB__
 
-#include "omp.h"
 #include "common.cpp"
 #include <cassert>
 #include <algorithm>

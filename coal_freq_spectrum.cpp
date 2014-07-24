@@ -27,7 +27,6 @@
 #include <boost/math/special_functions/expint.hpp>
 using namespace boost::math;
 
-#include "omp.h"
 #include "coal_freq_spectrum_lib.cpp"
 using namespace std;
 

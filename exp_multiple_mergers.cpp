@@ -25,7 +25,6 @@
 #ifndef __EXP_MULTIPLE_MERGERS__
 #define __EXP_MULTIPLE_MERGERS__
 
-#include <omp.h>
 #include "wf_lib.cpp"
 
 vector<ll> Ns;

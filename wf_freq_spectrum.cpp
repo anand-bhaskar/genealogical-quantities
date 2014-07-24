@@ -28,7 +28,6 @@
 #ifndef __WF_FREQ_SPECTRUM__
 #define __WF_FREQ_SPECTRUM__
 
-#include "omp.h"
 #include "wf_lib.cpp"
 #include "common.cpp"
 
