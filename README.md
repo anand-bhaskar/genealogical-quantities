@@ -34,12 +34,12 @@ All population sizes in the model files are in haploids.
 
 ### Dependencies
 
-The computation of the frequency spectrum under the coalescent requires the [boost](http://www.boost.org/users/download/) math library. Change this line in the Makefile to point to the directory where the boost header files are installed.
+The computation of the frequency spectrum under the coalescent requires the [boost](http://www.boost.org/users/download/) math library. The installation instructions for Boost for MacOS/Linux can be found [here](http://www.boost.org/doc/libs/1_55_0/more/getting_started/unix-variants.html). Change this line in the Makefile to point to the directory where the boost header files are installed.
 ```
 INCL = -I/opt/local/include/
 ```
 
-The various computations can also take advantage of loop-level parallelism through the OpenMP library. If you have a [GNU C++ compiler that supports OpenMP](https://gcc.gnu.org/wiki/openmp) (&geq; 4.2), you can enable parallelism by uncommenting the OPENMP_FLAG line in the Makefile by deleting the ```#``` symbol in the following line:
+The various computations can also take advantage of loop-level parallelism through the OpenMP library. If you have a [GNU C++ compiler that supports OpenMP](https://gcc.gnu.org/wiki/openmp) (>= 4.2), you can enable parallelism by uncommenting the OPENMP_FLAG line in the Makefile by deleting the ```#``` symbol in the following line:
 ```
 # OPENMP_FLAG = -fopenmp
 ```
