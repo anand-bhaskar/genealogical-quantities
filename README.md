@@ -19,7 +19,7 @@ PNAS, 111(6):2385–2390, 2014
 
 Each of these can be compiled separately by doing:
 ```
-make <filename>
+make <filename_without_dot_cpp_extension>
 ```
 
 The demographic models corresponding to Models 1--4 in the paper are in model[1-4].txt (WF) and coalModel[1-4].txt (coalescent). 
