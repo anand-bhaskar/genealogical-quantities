@@ -75,7 +75,7 @@ void readWFModelFromFile(string& fileName, VI& times, vector<ll>& Ns)	{
 //generation (with population curPopSize) have j parents in the previous generation (with population popSize)
 //the returned Q matrix has dimensions min(n, curPopSize) rows and min(n, popsize, curPopSize) columns
 VVD calcQ(int n, ll popSize, ll curPopSize)	{
-	assert (popSize >= n);
+	// assert (popSize >= n);
 	int imax = (int)min((ll)n, curPopSize);
 	int jmax = (int)min((ll)n, popSize);
 	jmax = min(imax, jmax);
@@ -98,7 +98,7 @@ VVD calcQ(int n, ll popSize, ll curPopSize)	{
 //same as calcQ except that the entries where Q would be < eps are removed. For each row i, the left and right 
 //index bounds for j where P(i -> j) > eps are returned in the vector v.
 VVD calcQWithTruncation(int n, ll popSize, DOUBLE eps, vector<pair<int, int> >& v, ll curPopSize)	{
-	assert (popSize >= n);
+	//assert (popSize >= n);
 	int imax = (int)min((ll)n, curPopSize);
 	int jmax = (int)min((ll)n, popSize);
 	jmax = min(imax, jmax);
@@ -147,7 +147,7 @@ VVD calcQWithTruncation(int n, ll popSize, DOUBLE eps, vector<pair<int, int> >& 
 
 //probability of k-drops due to only simultaneous mergers (i.e. no multiple mergers)
 VVD calcR(int n, ll popsize, ll curPopSize)	{
-	assert (popsize >= n);
+	//assert (popsize >= n);
 	int imax = (int)min((ll)n, curPopSize);
 	int jmax = (int)min((ll)n, popsize);
 	jmax = min(imax, jmax);
